@@ -1,0 +1,82 @@
+header{
+
+    background: no-repeat center center;
+
+    background-size: cover;
+
+    color: white;
+
+
+
+}
+
+.image-container{
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:white;
+    margin-bottom:-8px;
+    
+}
+    .card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transform: scale(1.15); 
+     }
+.card-body{
+    color:white;
+    background-color:black;
+}
+
+.color-overlay{
+
+    background-color:rgba(0,0,0,0.4);
+
+    min-height: 60vh;
+
+}
+
+.singleCol{
+
+    max-width: 750px;
+
+    
+
+}
+
+footer{
+
+    background-color: #3a3a3a;
+
+    
+
+}
+
+footer a{
+
+   color: white;
+
+
+
+}
+
+footer:hover{
+
+   color:#dfdfdf;
+
+   
+
+}
+
+@media(max-width:767.98px){
+
+    .color-overlay{
+
+        min-height: 30vh;
+
+    }
+
+}
+
+
+
